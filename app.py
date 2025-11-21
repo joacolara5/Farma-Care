@@ -180,7 +180,7 @@ st.markdown("""
 def load_data():
     """Cargar datos desde la ruta específica"""
     try:
-        df = pd.read_csv("C:\\Users\\HP\\Desktop\\Mis cosas\\4SEM\\DataW\\Farma-Care\\realistic_drug_labels_side_effects.csv")
+        df = pd.read_csv("realistic_drug_labels_side_effects.csv")
         st.success("✅ Datos reales cargados correctamente")
         return df
     except Exception as e:
