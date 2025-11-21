@@ -1,0 +1,19 @@
+Flask
+Flask-WTF
+Flask-Login
+Flask-SQLAlchemy
+SQLAlchemy
+psycopg2-binary      # si usas PostgreSQL
+pandas
+numpy
+matplotlib           # si hay gráficos
+seaborn              # opcional para dashboards
+plotly            # opcional si hay dashboards interactivos
+requests
+gunicorn           # para deploy
+python-dotenv       # para variables de entorno
+scikit-learn
+#wdsdd
+streamlit
+streamlit-aggrid
+seaborn
